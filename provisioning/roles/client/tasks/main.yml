@@ -21,4 +21,11 @@
     owner: user
     mode: 0644
 
+- name: Add picture to the home directory
+  copy:
+    src: gepard.jpg
+    dest: /home/user/gepard.jpg
+    owner: user
+    mode: 0644
+
 ...

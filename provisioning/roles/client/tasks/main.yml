@@ -29,4 +29,8 @@
     owner: user
     mode: 0644
 
+- name: Remove picture in the home directory
+  ansible.builtin.file:
+    path: /home/use/gepard.jpg
+    state: absent
 ...

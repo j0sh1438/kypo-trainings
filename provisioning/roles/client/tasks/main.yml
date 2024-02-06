@@ -12,6 +12,7 @@
      - nmap
      - hydra
      - medusa
+     - foremost
     update_cache: yes
 
 - name: Add passwords file to the home directory

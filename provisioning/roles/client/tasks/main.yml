@@ -31,6 +31,6 @@
 
 - name: Remove picture in the home directory
   ansible.builtin.file:
-    path: /home/use/gepard.jpg
+    path: /home/user/gepard.jpg
     state: absent
 ...

@@ -9,8 +9,8 @@ hosts:
 
   - name: client
     base_box: 
-      image: ubuntu-focal-x86_64
-      man_user: ubuntu
+      image: windows-10 
+      man_user: windows 
     flavor: standard.small
 
 routers:

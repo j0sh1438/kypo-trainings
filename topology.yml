@@ -9,8 +9,8 @@ hosts:
 
   - name: client
     base_box: 
-      image: xubuntu-22.04 
-      man_user: ubuntu 
+      image: kali 
+      man_user: kali 
     flavor: standard.small
 
 routers:

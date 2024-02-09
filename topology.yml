@@ -9,8 +9,8 @@ hosts:
 
   - name: client
     base_box: 
-      image: windows-10 
-      man_user: windows 
+      image: xubuntu-22.04 
+      man_user: ubuntu 
     flavor: standard.small
 
 routers:

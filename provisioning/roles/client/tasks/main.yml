@@ -10,3 +10,11 @@
     checksum: sha256:10483722d84e0cefcb693b11dea2d32dbd3ad2f06f8c9656688c8c730fe41579 
     group: user 
     owner: user 
+
+- name: Install packages
+  apt:
+    pkg:
+     - sleuthkit 
+     - testdisk 
+    update_cache: yes
+

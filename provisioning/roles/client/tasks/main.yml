@@ -1,0 +1,12 @@
+---
+# This is a role for setting up the client.
+
+- name: Download image using get_url
+  become: yes
+  get_url:
+    url: https://digitalcorpora.s3.amazonaws.com/corpora/drives/nps-2009-canon2/nps-2009-canon2-gen6.E01 
+    dest: /home/user/
+    mode: 0644
+    checksum: sha256:10483722d84e0cefcb693b11dea2d32dbd3ad2f06f8c9656688c8c730fe41579 
+    group: user 
+    owner: user 

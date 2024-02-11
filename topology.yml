@@ -9,9 +9,9 @@ hosts:
 
   - name: client
     base_box: 
-      image: kali 
-      man_user: kali 
-    flavor: standard.medium
+      image: ubuntu-focal-x86_64
+      man_user: ubuntu 
+    flavor: standard.small
 
 routers:
   - name: router
